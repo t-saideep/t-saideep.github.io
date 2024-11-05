@@ -1,1 +1,154 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasture - Mindful Consumption Tracker</title>
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #841584;
+            --background-color: #F8FFF8;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 1rem;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .screenshot {
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .app-name {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="app-name">Vasture</h1>
+        <p class="tagline">Track your journey towards mindful consumption</p>
+        <div>
+            <a href="#" class="cta-button">Download on the App Store</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Make a Difference</h2>
+            <p>Thank you for taking this important step towards reducing animal cruelty. Your choice to be mindful about consumption makes a real difference in the world. With Vasture, you can see your impact and make informed choices about your food consumption.</p>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>Track Daily Progress</h3>
+                <p>Monitor your daily consumption with an intuitive interface. Set personal goals and watch your progress unfold.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Weekly Insights</h3>
+                <p>Visualize your journey with detailed weekly charts and statistics, helping you stay aligned with your ethical consumption goals.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Monthly Overview</h3>
+                <p>Gain valuable insights with monthly statistics and trends to support your long-term commitment to mindful eating.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Features That Empower You</h2>
+            <ul>
+                <li>Customizable weekly goals to match your journey</li>
+                <li>Track various food types with different impact weights</li>
+                <li>Comprehensive daily, weekly, and monthly progress charts</li>
+                <li>Private and secure - all data stays on your device</li>
+                <li>Easy data backup and restore options</li>
+                <li>Calendar view for tracking your history</li>
+                <li>Track both factory-farmed and pasture-raised options</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Your Privacy Matters</h2>
+            <p>Vasture respects your privacy completely. All your tracking data stays securely on your device. We don't collect, track, or share any of your personal information or consumption data.</p>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? We'd love to hear from you!</p>
+            <p>Email us at: <a href="mailto:vasture.app@gmail.com">vasture.app@gmail.com</a></p>
+        </section>
+    </div>
+
+    <footer style="text-align: center; padding: 2rem; background: white;">
+        <p>© 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
